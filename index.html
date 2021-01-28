@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Astucia Naval</title>
+	<style type="text/css">
+		
+		body{
+			text-align: center;	
+			font-family: helvetica;	
+		}
+
+		button{
+			width: 50px;
+			height: 50px;
+			margin-left: 5px;
+			margin-right: 5px;
+			font-size: 20px;
+			text-decoration: none;
+			border-radius: 30px;
+			border: none;
+			background-color: rgb(230, 230, 250);
+		}
+		input{
+			height: 38px;
+			width: 350px;
+			border-radius: 30px;
+			border-style: inset;
+			border-color: black;
+			border-width: 1px;
+			font-size: 20px;
+			padding-left: 10px;
+		}
+
+		.btn:hover{
+			background-color: rgb(140, 145, 250);
+		}
+
+		.btn{
+			width: 120px;
+			height: 40px;
+			font-size: 20px;
+		}
+
+		.label{
+			background-color: white;
+			font-size: 18px;
+			padding-top: 30px;
+
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div>
+		<input type="text" name="" id="comandotxt" maxlength="3">
+		<button class="btn" id= "jugar" onclick="jugar()">Ejecutar</button>
+		<button class="btn" id= "reiniciar" onclick="reiniciar()">Limpiar</button>
+	</div>
+<br>
+	<div id="astuciaNaval"></div>
+
+
+<script type="text/javascript" src="js.js"></script>
+
+</body>
+</html>
